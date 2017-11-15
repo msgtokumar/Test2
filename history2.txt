@@ -1,0 +1,156 @@
+    1  passwd root
+    2   yum install wget -y
+    3  wget http://ftp.itu.edu.tr/Mirror/Apache/tomcat/tomcat-8/v8.0.9/bin/apache-tomcat-8.0.9.tar.gz
+    4  yum install tomcat8 tomcat8-webapps tomcat8-admin-webapps tomcat8-docs-webapp
+    5  yum install tomcat7 tomcat7-webapps tomcat7-admin-webapps tomcat7-docs-webapp
+    6  yum install tomcat7 tomcat7-webapps tomcat7-admin-webapps tomcat7-docs-webapp
+    7  wget http://www-us.apache.org/dist/tomcat/tomcat-8/v8.0.33/bin/apache-tomcat-8.0.33.tar.gz
+    8  wget http://ftp.itu.edu.tr/Mirror/Apache/tomcat/tomcat-8/v8.0.9/bin/apache-tomcat-8.0.9.tar.gz
+    9  wget http://ftp.itu.edu.tr/Mirror/Apache/tomcat/tomcat-8/v8.0.9/bin/apache-tomcat-8.0.9.tar.gz
+   10  sudo yum install tomcat6 tomcat6-webapps
+   11  sudo yum install tomcat
+   12  pwd
+   13  ls -lrt
+   14  ls -lrt
+   15  cd ..
+   16  ls -rlt
+   17  cd ..
+   18  ls -lrt
+   19  which tomcat
+   20  cd sbin/tomcat 
+   21  ls -lrt
+   22  cd /sbin
+   23  ls -lrt
+   24  ls -rlt tom*
+   25  cd tomcat 
+   26  l s-rlt
+   27  cd tomcat 
+   28  cd etc
+   29  cd /ect
+   30  ls -lrt
+   31  cd /etc
+   32  ls -rlt
+   33  cd tomcat/
+   34  ls -rlt
+   35  sudo vi /etc/systemd/system/tomcat.service
+   36  pwd
+   37  cd Catalina/
+   38  ls -lrt
+   39  cd localhost/
+   40  ls -rlt
+   41  cd ..
+   42  ls -rlt
+   43  cd ..
+   44  pwd
+   45  ls -lrt
+   46  cd ..
+   47  ls -lrt
+   48  ls -lrt tomcat*
+   49  wget --no-cookies --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com" 
+   50  wget --no-cookies --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com" "http://download.oracle.com/otn-pub/java/jdk/7u40-b43/jdk-7u40-linux-x64.tar.gz"
+   51  ls -lrt
+   52  ls -rlt *.tar
+   53  cd ~
+   54  ls -rlt
+   55  cd -
+   56  sudo yum remove tomcat7 tomcat7-webapps
+   57  history
+   58  sudo yum remove tomcat
+   59  ls -lrt
+   60  ls -rlt tomcat
+   61  cd /opt/tomcat
+   62  wget http://apache.mirror.serversaustralia.com.au/tomcat/tomcat-8/v8.5.23/bin/apache-tomcat-8.5.23.tar.gz
+   63  sudo tar -zxvf  apache-tomcat-8.5.23.tar.gz -C /opt/tomcat --strip-components=1
+   64  cd /opt/tomcat
+   65  ls -rlt
+   66  sudo chgrp -R tomcat conf
+   67  sudo chmod g+rwx conf
+   68  sudo chmod g+r conf/*
+   69  sudo chown -R tomcat logs/ temp/ webapps/ work/
+   70  sudo chgrp -R tomcat bin
+   71  sudo chgrp -R tomcat lib
+   72  sudo chmod g+rwx bin
+   73  sudo chmod g+r bin/*
+   74  sudo vi /etc/systemd/system/tomcat.service
+   75  sudo vi /etc/systemd/system/tomcat.service
+   76  udo yum install haveged
+   77  sudo systemctl start haveged.service
+   78  sudo yum install haveged
+   79  sudo yum install haveged
+   80  sudo systemctl start tomcat.service
+   81  sudo systemctl enable tomcat.service
+   82  ps -ef|grep tomcat
+   83  sudo fuser -v -n tcp 8080
+   84  sudo tomcat -v -n tcp 8080
+   85  sudo root -v -n tcp 808
+   86  su tomcat -v -n tcp 8080
+   87  su  fuser -v -n tcp 8080
+   88  su tomcat -V -n tcp 8080
+   89  su fuser -V -n tcp 8080
+   90  sudo fuser -V -n tcp 8080
+   91  exit
+   92  cd /opt/tomcat/
+   93  cd bin
+   94  ls -rlt
+   95  cd ..
+   96  chown tomcat bin
+   97  ls -lrt
+   98  chown tomcat *
+   99  ls -lrt
+  100  chown :tomcat *
+  101  ls -lrt
+  102  exit
+  103  cd /opt/tomcat/
+  104  chmod g+r bin/*
+  105  ls -rlt
+  106  exit
+  107  cd /opt/tomcat
+  108  chmod 755 bin/*
+  109  chmod 755 bin
+  110  ls -rlt
+  111  exit
+  112  cd /opt/tomcat/
+  113  ls -rlt
+  114  chmod 755 *
+  115  chmod 755 ./*
+  116  ls -rlt
+  117  exit
+  118  cd /opt/tomcat/logs/
+  119  chmod 755 *
+  120  cd ..
+  121  chmod 755 logs
+  122  ls -rlt
+  123  cd bin
+  124  exit
+  125  cd /opt/tomcat/
+  126  chmod 777 *
+  127  chmod 777 */*
+  128  ls -rlt
+  129  cd bin
+  130  ls -rlt
+  131  exit
+  132  cd /tmp
+  133  yum list
+  134  yum list | grep mysql
+  135  yum repolist enabled | grep "mysql.*-community.*"
+  136  yum repolist all | grep mysql
+  137  yum install mysql-community-client
+  138  rpm -qpl mysql-community-server-version-distribution-arch.rpm
+  139  sudo yum install mysql-community-{server,client,common,libs}-*
+  140  which mysql
+  141  yum list | grep maria
+  142  sudo vi /etc/yum.repos.d/maria.repo
+  143  sudo yum install -y MariaDB-server MariaDB-client
+  144  sudo yum install -y MariaDB-client
+  145  sudo vi /etc/yum.repos.d/maria.repo
+  146  sudo yum install MariaDB-client
+  147  cat /etc/my.cnf
+  148  cd /var/lib/mysql/
+  149  cd /var/lib
+  150  ls -lrt
+  151  yum remove  mariadb-libs-1:5.5.56-2.el7.x86_64
+  152  sudo yum install MariaDB-client
+  153  mysql
+  154  mysql -version
+  155  mysql --verbose --help
+  156  history >/tmp/history2.txt
